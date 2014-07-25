@@ -18,7 +18,6 @@ body {
     width: 8.5in;
     height: 11in;
     position: absolute;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 table {
@@ -45,7 +44,7 @@ ul {
 }
 
 .editable {
-    spellcheck: false;
+
 	}
 
 #hide {
@@ -55,8 +54,10 @@ ul {
     position: absolute;
     z-index: 1;
     position: absolute;
-    width: 8.5in;
-    height: 11in;
+	left: 1.25in;
+	top: 1in;
+    width: 6in;
+    height: 6.5in;
     border:2px solid;
     border-radius:25px;
     vertical-align: center;
@@ -73,6 +74,7 @@ ul {
     left: .5in;
     height: .75in;
     text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 .contact {
@@ -140,6 +142,7 @@ ul {
     font-weight: bold;
     font-size: 16px;
     border-bottom-style: solid;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 
@@ -162,6 +165,7 @@ ul {
     border-bottom-style: solid;
     font-size: 16px;
     font-weight: bold;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 
@@ -185,6 +189,7 @@ ul {
     border-bottom-style: solid;
     font-size: 16px;
     font-weight: bold;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 .education {
@@ -207,6 +212,7 @@ ul {
     border-bottom-style: solid;
     font-size: 16px;
     font-weight: bold;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 .activitiesAwards {
@@ -229,4 +235,5 @@ ul {
     border-bottom-style: solid;
     font-size: 16px;
     font-weight: bold;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }

@@ -1,32 +1,4 @@
-    $(document).ready(function() {
-		
-		//$(".editable").attr('spellcheck',false);
-        /*
-        var $name = document.getElementById("name").innerHTML;
-        var $contactLeft = document.getElementById("contactLeft").innerHTML;
-        var $contactRight = document.getElementById("contactRight").innerHTML;
-        var $overviewHeading = document.getElementById("overviewHeading").innerHTML;
-        var $overviewContent = document.getElementById("overviewContent").innerHTML;
-        var $skillsHeading = document.getElementById("skillsHeading").innerHTML;
-        var $skillsContent = document.getElementById("skillsContent").innerHTML;
-        var $workHeading = document.getElementById("workHeading").innerHTML;
-        var $workCompanyOne =document.getElementById("workCompanyOne").innerHTML;
-        var $workDutiesOne = document.getElementById("workDutiesOne").innerHTML;
-        var $workCompanyTwo = document.getElementById("workCompanyTwo").innerHTML;
-        var $workDutiesTwo = document.getElementById("workDutiesTwo").innerHTML;
-        var $workCompanyThree = document.getElementById("workCompanyThree").innerHTML;
-        var $workDutiesThree = document.getElementById("workDutiesThree").innerHTML;
-        var $educationHeading = document.getElementById("educationHeading").innerHTML;
-        var $schoolLeftOne = document.getElementById("schoolLeftOne").innerHTML;
-        var $schoolRightOne = document.getElementById("schoolRightOne").innerHTML;
-        var $schoolLeftTwo = document.getElementById("schoolLeftTwo").innerHTML;
-        var $schoolRightTwo = document.getElementById("schoolRightTwo").innerHTML;
-        var $activitiesAwardsHeading = document.getElementById("activitiesAwardsHeading").innerHTML;
-        var $activitiesAwardsContent =  document.getElementById("activitiesAwardsContent").innerHTML;
-        */
-        
-       // $("#demo").html($workCompanyTwo); test
-        
+    $(document).ready(function() {      
         $("#hide").click(function(){
 	    $("#hide").hide();
         });
@@ -36,22 +8,17 @@
 
 
         
-        $('div').hover(function() {
+        $('div').hover(
+		function() {
             //mouse over
-
-	    $(this).css('border', '2px');
-	    $(this).css('border-style', 'dashed');
-	    $(this).css('border-color', '#333333');
-	    
-	}, 
-            function() {
-	    $(this).css('border-style', 'none');
-            $(this).css('border-bottom-style', botB);
-
-	    },
-
-            function(){
-        });
+			$(this).css('background', '#8CBDAD');		
+			}, 
+			function() {
+				$(this).css('background', colorOrig);
+			},
+			function(){
+			}
+		);
         
 
         
