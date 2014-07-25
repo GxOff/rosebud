@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #000;
+    background-color: #6666ff;
 }
 
 html {
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #f55748;
 }
 
 .light {
@@ -115,7 +115,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+		background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -123,7 +123,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        background-color: #f55748;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -138,8 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    background-color: #6666ff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -257,19 +256,19 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     /*background: url(../img/portfolio-1.jpg) no-repeat center center scroll;*/
-    background-color: #000;
+    background-color: #6666ff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.download-section {
+.projects-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
-    background-color: #000;
+    /*background: url(../img/projectss-bg.jpg) no-repeat center center scroll;*/
+    background-color: #6666ff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -287,7 +286,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .projects-section {
         padding: 100px 0;
     }
 
@@ -314,10 +313,10 @@ a:focus {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #219ab3;
+    border: 1px solid #f55748;
     outline: 0;
-    color: #000;
-    background-color: #219ab3;
+    color: #fff;
+    background-color: #f55748;
 }
 
 ul.banner-social-buttons {
