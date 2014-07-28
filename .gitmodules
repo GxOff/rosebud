@@ -1,0 +1,3 @@
+[submodule "projects/resume"]
+	path = projects/resume
+	url = https://github.com/GxOff/resume-builder.git
