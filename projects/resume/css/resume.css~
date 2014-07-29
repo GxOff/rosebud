@@ -1,0 +1,232 @@
+@page {
+    size: letter;
+}
+
+html {
+      font-family: sans-serif;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    padding: 0in;
+    margin: 0in;
+    border: 0in;
+    width: 8.5in;
+    height: 11in;
+    position: absolute;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+table {
+    table-layout:fixed;
+}
+
+table td {
+
+    width: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div {
+    background: white;
+}
+
+ul {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.editable {
+    spellcheck: false;
+	}
+
+#hide {
+    background-color: #333;
+    color: white;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    position: absolute;
+    width: 8.5in;
+    height: 11in;
+    border:2px solid;
+    border-radius:25px;
+    vertical-align: center;
+}
+
+#name {
+    border:2 px solid;
+    background-color: white;
+    font-size: 26px;
+    top: 0in;
+    padding-top: .25in;
+    position: absolute;
+    width: 2in;
+    left: .5in;
+    height: .75in;
+    text-align: center;
+}
+
+.contact {
+    background-color: white;
+    position: absolute;
+    padding-top: .25in;
+    top: 0in;
+    left: 3in;
+    width: 5in;
+    height: .5in;
+    font-size: 12px;
+}
+
+#contactLeft {
+    text-align: left;
+}
+
+#contactRight {
+    text-align: right;
+}
+
+.overview {
+    background-color: white;
+    font-size: 14px;
+    position: absolute;
+    height: 1.5in;
+    top: 1in;
+    left: 3in;
+    width: 5in;
+}
+
+.profile-avatar-wrap {
+  top: 1.4in;
+  float: left;
+  left: .5in;
+  width: 2in;
+  height: 2in;
+  position: relative;
+  pointer-events: none;
+}
+.profile-avatar-wrap:after {
+  /* Drag Prevention */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.profile-avatar-wrap img {
+  width: 2in;
+  height: 2in;
+  display: block;
+}
+
+#drag {
+  top: 1.6in;
+  float: left;
+  left: .5in;
+  width: 2in;
+  height: 2in;
+  position: relative;
+  pointer-events: none;
+}
+
+#overviewHeading{
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom-style: solid;
+}
+
+
+.skills{
+    border:2px solid;
+    border-radius:25px;
+    background-color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 4in;
+    left: .5in;
+    width: 2in;
+    height: 4.5in;
+    line-height: 1.75;
+}
+
+#skillsHeading{
+
+    text-align: left;
+    border-bottom-style: solid;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.workHistory {
+    padding: 0in;
+    margin: 0in;
+    border: 0in;
+    background-color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 3in;
+    left: 3in;
+    width: 5in;
+    height: 3in;
+    text-align: left;
+    
+}
+
+#workHeading{
+    text-align: left;
+    border-bottom-style: solid;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.education {
+    padding: 0in;
+    margin: 0in;
+    border: 0in;
+    background-color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 7.5in;
+    left: 3in;
+    width: 5in;
+    height: .5in;
+    text-align: left;
+    
+}
+
+#educationHeading{
+    text-align: left;
+    border-bottom-style: solid;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.activitiesAwards {
+    line-height: 1.75;
+    padding: 0in;
+    margin: 0in;
+    border: 0in;
+    background-color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 9.25in;
+    left: .5in;
+    width: 7.5in;
+    height: .5in;
+    text-align: left;
+}
+
+#activitiesAwardsHeading {
+    text-align: left;
+    border-bottom-style: solid;
+    font-size: 16px;
+    font-weight: bold;
+}

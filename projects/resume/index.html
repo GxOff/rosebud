@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<!--
+    This is an HTML page that contains a CSS and a Javascript file.
+    
+    Run this sample by clicking the 'Preview' button on top;
+    a new tab will open with the current page open.
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Create your Resume!</title>
+        <link rel="stylesheet" href="css/resume.css" type="text/css"/>
+    </head>
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+    <script>
+    /*
+
+    $(document).ready(function() {     
+        
+        var colorOrig = $('div').css('background-color');
+        
+        $('div').hover(function() {
+            //mouse over
+            $(this).css('background', '#F3F315')}, 
+            function() {
+            //mouse out
+            $(this).css('background', colorOrig)}, 
+            function(){
+        });
+        
+        document.getElementById('name').innerHTML = localStorage['name'] || 'John Q. Public';
+        document.getElementById('contactLeft').innerHTML = localStorage['contactLeft'] || '123 Maple Lane<br>Oak Valley, CA 00000<br><br>';
+        document.getElementById('contactRight').innerHTML = localStorage['contactRight'] || 'Cell: (555) 555-1234<br>Email: johnq@email.com<br><br>';
+        document.getElementById('overviewHeading').innerHTML = localStorage['overviewHeading'] || 'Overview';
+        document.getElementById('overviewContent').innerHTML = localStorage['overviewContent'] || 'To gain an entry level position with a company that encourages growth and learning.';
+        document.getElementById('skillsHeading').innerHTML = localStorage['skillsHeading'] || 'Skills';
+        document.getElementById('skillsContent').innerHTML = localStorage['skillsContent'] || '<li>HTML5</li><li>CSS3</li><li>Javascript</li><li>Ajax</li><li>JQuery</li><li>Eclipse</li><li>SQL</li><li>Java</li><li>C#</li><li>C++</li><li>Linux</li><li>C#</li><li>C++</li><li>Linux</li>';
+        document.getElementById('workHeading').innerHTML = localStorage['workHeading'] || 'Work History';
+        document.getElementById('workCompanyOne').innerHTML = localStorage['workCompanyOne'] || '<b>Blank Enterprises</b><br>2012 - Current<br>Somewhere, CA<br>';
+        document.getElementById('workDutiesOne').innerHTML = localStorage['workDutiesOne'] || '<li>Did some things</li><li>Did some other things</li><li>Blah blah blah</li>';
+        document.getElementById('workCompanyTwo').innerHTML = localStorage['workCompanyTwo'] || '<b>Blank Enterprises</b><br>2012 - Current<br>Somewhere, CA<br>';
+        document.getElementById('workDutiesTwo').innerHTML = localStorage['workDutiesTwo'] || '<li>Did some things</li><li>Did some other things</li><li>Blah blah blah</li>';
+        document.getElementById('workCompanyThree').innerHTML = localStorage['workCompanyThree'] || '<b>Blank Enterprises</b><br>2012 - Current<br>Somewhere, CA<br>';
+        document.getElementById('workDutiesThree').innerHTML = localStorage['workDutiesThree'] || '<li>Did some things</li><li>Did some other things</li><li>Blah blah blah</li>';
+        document.getElementById('educationHeading').innerHTML = localStorage['educationHeading'] || 'Education';
+        document.getElementById('schoolLeftOne').innerHTML = localStorage['schoolLeftOne'] || '<b>UCSC - Sanata Cruz, CA</b><br>GPA 3.5<br><br>';
+        document.getElementById('schoolRightOne').innerHTML = localStorage['schoolRightOne'] || 'B.S. Computer Science<br>2008 - 2012<br><br>';
+        document.getElementById('schoolLeftTwo').innerHTML = localStorage['schoolLeftTwo'] || '<b>Santa Cruz High School - Sanata Cruz, CA</b><br>GPA 3.5<br><br>';
+        document.getElementById('schoolRightTwo').innerHTML = localStorage['schoolRightTwo'] || 'Diploma<br>2004 - 2008<br><br>';
+        document.getElementById('activitiesAwardsHeading').innerHTML = localStorage['activitiesAwardsHeading'] || 'Activities / Awards';
+        document.getElementById('activitiesAwardsContent').innerHTML = localStorage['activitiesAwardsContent'] || '<li><b>Some Award</b> 2011</li><li><b>Some Colleges Computer Club</b> 2011</li>';
+        
+        setInterval(function() {
+              localStorage['name'] = document.getElementById('name').innerHTML;
+              localStorage['contactLeft'] = document.getElementById('contactLeft').innerHTML;
+              localStorage['contactRight'] = document.getElementById('contactRight').innerHTML;
+              localStorage['overviewHeading'] = document.getElementById('overviewHeading').innerHTML;
+              localStorage['overviewContent'] = document.getElementById('overviewContent').innerHTML;
+              localStorage['skillsHeading'] = document.getElementById('skillsHeading').innerHTML;
+              localStorage['skillsContent'] = document.getElementById('skillsContent').innerHTML;
+              localStorage['workHeading'] = document.getElementById('workHeading').innerHTML;
+              localStorage['workCompanyOne'] = document.getElementById('workCompanyOne').innerHTML;
+              localStorage['workDutiesOne'] = document.getElementById('workDutiesOne').innerHTML;
+              localStorage['workCompanyTwo'] = document.getElementById('workCompanyTwo').innerHTML;
+              localStorage['workDutiesTwo'] = document.getElementById('workDutiesTwo').innerHTML;
+              localStorage['workCompanyThree'] = document.getElementById('workCompanyThree').innerHTML;
+              localStorage['workDutiesThree'] = document.getElementById('workDutiesThree').innerHTML;
+              localStorage['educationHeading'] = document.getElementById('educationHeading').innerHTML;
+              localStorage['schoolLeftOne'] = document.getElementById('schoolLeftOne').innerHTML;
+              localStorage['schoolRightOne'] = document.getElementById('schoolRightOne').innerHTML;
+              localStorage['schoolLeftTwo'] = document.getElementById('schoolLeftTwo').innerHTML;
+              localStorage['schoolRightTwo'] = document.getElementById('schoolRightTwo').innerHTML;
+              localStorage['activitiesAwardsHeading'] = document.getElementById('activitiesAwardsHeading').innerHTML;
+              localStorage['activitiesAwardsContent'] = document.getElementById('activitiesAwardsContent').innerHTML;
+        }, 3* 1000);
+            
+        
+    });
+    */
+    </script>
+    
+    <body>
+
+<div id="hide" align="center">
+              
+<h1>Welcome to create your resume!</h1>
+            
+<h2>Tips<br><br></h2>
+            
+<p>
+                  
+Click in the highlighted areas to edit your information. Drag<br>
+                
+and drop a photo in the specified area or click<br>
+                
+the area to hide it.<br><br>
+            
+</p>
+            
+<p>
+                  
+All edits will be saved every 3 seconds. If you close<br>
+                
+or refresh your browser edits should still remain. <b>Clearing<br>
+                    
+your web browser cache will remove all edits.</b><br><br>
+            
+</p>
+            
+<p>
+                  
+When printing remember to remove headers and footers. The dimensions <br>
+                
+of thispage are set to standard letter size (8.5 x 11inches). <br><br>
+            
+</p>
+            
+<p>
+                  
+Click anywhere in this box to hide it. Press F1 to bring it back.
+            
+</p>
+            
+<p>
+                  
+If you enjoyed using this to create your resume or would like <br>
+                
+to request other features please feel free to email me: gmontague0205@gmail.com<br>
+         <br><br>
+	             
+</p>
+        
+</div>
+
+
+        <div id="name" contenteditable="true" class="editable">John Q. Public</div>
+        <table class="contact">
+            <tr>
+                <td>
+                    <div  id="contactLeft" contenteditable="true" class="editable">123 Maple Lane<br>Oak Valley, CA 00000<br><br></div>
+                </td>
+                <td>
+                    <div id="contactRight" contenteditable="true" class="editable">Cell: (555) 555-1234<br>Email: johnq@email.com<br><br></div>
+                </td>
+            </tr>
+        </table>
+        
+        <table class="overview">
+            <tr>
+                <td><div id="overviewHeading"  contenteditable="true" class="editable">Overview</div></td>
+            </tr>
+            <tr>
+                <td><div id="overviewContent" contenteditable="true" class="editable">To gain an entry level position with a company that encourages growth and learning.</div></td>
+            </tr>
+        </table>
+
+    
+		<div class="profile-avatar-wrap">
+			<img src="default.jpg" id="profileAvatar" alt="Image for Profile">
+		</div>
+
+        <table class="skills" contenteditable="true" class="editable">
+            <tr>
+                <td valign="top">
+                    <ul>
+                        <div id="skillsHeading"  contenteditable="true" class="editable">Skills</div>
+                        <div id="skillsContent"  contenteditable="true" class="editable"><li>HTML5</li><li>CSS3</li><li>Javascript</li><li>Ajax</li><li>JQuery</li><li>Eclipse</li><li>SQL</li><li>Java</li><li>C#</li><li>C++</li><li>Linux</li><li>C#</li><li>C++</li><li>Linux</li></div>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+        <table class="workHistory">
+            <tr>
+                <td colspan=4><div id="workHeading" contenteditable="true" class="editable">Work History</div></td>
+            </tr>
+            <tr>
+                <td colspan=1 valign="top">
+                    <div id="workCompanyOne" contenteditable="true" class="editable"><b>Blank Enterprises</b><br>2012 - Current<br>Somewhere, CA<br></div>
+                </td>
+                <td colspan=3  valign="top">
+                    <ul>
+                        <div id="workDutiesOne" contenteditable="true" class="editable"><li>Did some things</li><li>Did some other things</li><li>Blah blah blah</li></div>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=1  valign="top">
+                    <div id="workCompanyTwo" contenteditable="true" class="editable"><b>Blank Enterprises</b><br>2012 - Current<br>Somewhere, CA<br></div>
+                </td>
+                <td colspan=3  valign="top">
+                    <ul>
+                        <div id="workDutiesTwo" contenteditable="true" class="editable"><li>Did some things</li><li>Did some other things</li><li>Blah blah blah</li></div>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=1  valign="top">
+                    <div id="workCompanyThree" contenteditable="true" class="editable"><b>Blank Enterprises</b><br>2012 - Current<br>Somewhere, CA<br></div>
+                </td>
+                <td colspan=3  valign="top">
+                    <ul>
+                        <div id="workDutiesThree" contenteditable="true" class="editable"><li>Did some things</li><li>Did some other things</li><li>Blah blah blah</li></div>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+        <table class="education">
+            <tr>
+                <td colspan=2><div id="educationHeading" contenteditable="true" class="editable">Education</div></td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="schoolLeftOne" contenteditable="true" class="editable"><b>UCSC - Sanata Cruz, CA</b><br>GPA 3.5<br><br></div>
+                </td>
+                <td>
+                    <div id="schoolRightOne" contenteditable="true" class="editable">B.S. Computer Science<br>2008 - 2012<br><br></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="schoolLeftTwo" contenteditable="true" class="editable"><b>Santa Cruz High School - Sanata Cruz, CA</b><br>GPA 3.5<br><br></div>
+                </td>
+                <td>
+                    <div id="schoolRightTwo" contenteditable="true" class="editable"><i>Diploma</i><br>2004 - 2008<br><br></div>
+                </td>
+            </tr>
+        </table>
+        
+        <table class="activitiesAwards" contenteditable="true" class="editable">
+            <tr>
+                <td>
+                    <ul>
+                        <div id="activitiesAwardsHeading"  contenteditable="true" class="editable">Activities / Awards</div>
+                        <div id="activitiesAwardsContent"  contenteditable="true" class="editable"><li><b>Some Award</b> 2011</li><li><b>Some College's Computer Club</b> 2011</li></div>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- load scripts at the bottom of your page -->
+       <!-- <script src="js/site.js"></script> -->
+    </body>
+</html>
