@@ -1,9 +1,6 @@
 [submodule "projects/resume"]
 	path = projects/resume
 	url = https://github.com/GxOff/resume-builder.git
-[submodule "booker"]
-	path = booker
-	url = https://github.com/GxOff/booker.git
 [submodule "projects/booker"]
 	path = projects/booker
 	url = https://github.com/GxOff/booker.git
